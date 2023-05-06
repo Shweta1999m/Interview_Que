@@ -1,0 +1,149 @@
+1. What are operators?
+Operators are required to perform various operations on data. They are special symbols that are required to carry out arithmetic and logical operations. The values on which the operator operates are called operands.
+So, if we say 10/5=2
+Here 7’ is the operator that performs division and 10 and 5 are the operands. Python has the following operators defined for various operations:
+
+Arithmetic Operators
+Relational Operators
+Logical/Boolean Operators
+Assignment Operators
+Bitwise Operators
+Membership Operators
+Identity Operators
+
+2. What are Arithmetic Operators? What are various types of arithmetic operators that we can use in Python?
+Arithmetic operators are used to performing mathematical functions such as addition, subtraction, division, and multiplication. Various types of Arithmetic operators that we can use in Python are as follows:
+
+3. What is the Arithmetic operator’s precedence in Python?
+Answer:
+When more than one arithmetic operator appears in an expression the operations will execute in a specific order. In Python, the operation precedence follows as per the acronym PEMDAS.
+Parenthesis
+Exponent
+Multiplication
+Division
+Addition
+Subtraction
+(2+2)/2-2*2/(2/2)*2
+= 4/2 -4/1*2
+= 2-8
+= -6
+>>> (2+2)/2-2*2/(2/2)*2
+-6.0
+
+4. Relational operators are also known as conditional or comparison operators. Relational operators in Python are defined as follows:
+
+==: returns true if two operands are equal
+!=: returns true if two operands are not equal
+>: returns true if the left operand is greater than the right operand
+<: returns true if the left operand is smaller than the right operand
+>=: returns true if the left operand is greater than or equal to the right operand
+<=: returns true if the left operand is smaller or equal to the right operand
+
+5.what is python ? 
+ans: python is a high level object oriented programming language with objects, modules,threads,exceptions and automatic memory management. It is a simple yet powerful programming
+     language. It can run equally on different plat-forms such as windows, linux, unix, macintosh etc. Thus, python is a portable language.
+     
+6.What are assignment operators?
+Answer:
+Assignment operators are used for assigning values to variables. Various types of assignment operators are as follows:
+
+=: a = 5 means that a is assigned value of 5
++= a += 5 is same as a = a+5
+-=: a -= 5 is same as a = a – 5
+*=. a *= 5 js same as a = a * 5
+/=: a /= 5 is same as a = a/5
+%=: a %=5 is same as a = a%5
+//=: x //= 5 is same as x= x//5
+**=• x **=5 js same as x = x**5
+&=: x &= 5 is same as x = x&5
+|=: x |= 5 is same as x = x|5
+A=: x A= 5 is same as x = xA5
+>>=: x >>= 5 is same as x = x>>5
+<<=: x <<= 5 is same as x = x<<5
+
+7.What is the Associativity of Python Operators? What are non-associative operators?
+Answer:
+Associativity defines the order in which an expression will be evaluated if it has more than one operator having the same precedence. In such a case generally left to right associativity is followed.
+Operators like assignment or comparison operators have no associativity and are known as Nonassociative operators.
+
+8.What is a statement?
+Answer:
+A complete unit of code that a Python interpreter can execute is called a statement.
+
+9. What is the difference between implicit expression and explicit expression?
+Answer:
+Conversion is the process of converting one data type into another. Two types of conversion in Python are as follows:
+
+Implicit type conversion
+Explicit type conversion
+
+10. Is it possible to change the order of evaluation in an expression?
+Answer:
+Yes, it is possible to change the order of evaluation of an expression. Suppose you want to perform addition before multiplication in an expression, then you can simply put the addition expression in parenthesis.
+(2+4)*4
+
+11. What is an expression?
+Answer:
+A logical line of code that we write while programing, is called expressions. An expression can be broken into operator and operands. It is therefore said that an expression is a combination of one or more operands and zero or more operators that are together used to compute a value.
+For example:
+a = 6
+a + b = 9
+8/7
+
+12.What is the difference between a = 10 and a= = 10?
+Answer:
+The expression a = 10 assigns the value 10 to variable a, whereas a == 10 checks if the value of a is equal to 10 or not. If yes then it returns ‘Ti^te’ else it will return ‘False’.
+   13)what are classes and objects in python??
+   
+   Ans: class is an blue print,and objects to be real world entites which are defined and created from classes 
+   
+   14) what do you understand by __init__() method in python?? 
+   
+   Ans: __init__ is a special method in python classes
+        is a constructor method for a class 
+        __init__ is called when ever an object of the class is constructed
+        
+    15) what do you understand by inheritance in python? give an example of it ??
+    
+    Ans: one class acquiring the property of another class.
+    
+    Eg: In a family tree, traits such as hair color and poor eyesight are passed from generation to generation
+    
+    
+    16) what is a lambda function ? 
+    
+    Ans: Anonymous function, ie a function without a name
+      lambda arguments: expression
+    
+    17) what is pickling and unpickling ??
+    
+    Ans: pickling --> converting an object in memory to a byte stream that can be stored on a disk or sent over a network
+    
+       Unpickling--> loading a pickled file back into a python program
+       
+    18) what are decorators in python??
+    Ans:  Extending the functionalities of existing functions without modifying them 
+    
+    19) Deep copy vs shallow copy ??
+    
+    Deep copy : creates new separate copy of the objects and its elements 
+                any change made in new copy doesn't reflect on original one
+                
+    shallow copy : creates copy of the object but rather than copying the elements of object it copies the refernces to
+                   thier memory address
+                   any change made to the copy reflects in the original
+                   
+                   
+   20)Q10.What are local variables and global variables in Python?
+   
+Global Variables:
+Variables declared outside a function or in global space are called global variables. 
+These variables can be accessed by any function in the program.
+
+Local Variables:
+Any variable declared inside a function is known as a local variable.
+This variable is present in the local space and not in the global space.
+  
+
+
+
